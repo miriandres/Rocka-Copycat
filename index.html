@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#082c4c">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocka Copycat - Building The Future of Work | Miriandres</title>
+    <meta name="description" content="Rocka Copycat is building and shipping products and services for the new generation of workers. We are passionate product builders spread across the globe.">
+    <meta name="author" content="Miriam Andres">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@miriandresdev">
+    <meta name="twitter:title" content="Rocka Copycat | Miriandres">
+    <meta name="twitter:description" content="Rocka Copycat">
+    <meta name="twitter:creator" content="@miriandresdev">
+    <meta name="twitter:image:src" content="design/social-preview.jpg">
+    <meta property="og:title" content="Rocka Copycat | Miriandres" />
+    <meta property="og:url" content="https://miriandres.github.io/Rocka-Copycat/" />
+    <meta property="og:image" content="design/social-preview.png" />
+    <meta property="og:description" content="Rocka Copycat" />
+    <meta property="og:site_name" content="Rocka Copycat | Miriandres" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="css/app.css">
+    <script defer src="js/particles-min.js"></script>
+    <script defer src="js/luxon-min.js"></script>
+    <script defer src="js/app-dist.js"></script>
+</head>
+
+<body class="body body--first no-scroll">
+	<div class="particles-js" id="particles-js"></div>
+	<div id="preload" class="preload no-scroll"></div>
+	
+	<header class="header">
+		<button class="header__btn" aria-label="Menu" type="button">
+			<svg class="header__svg" viewBox="0 0 18 18">
+				<path d="M1,5 H20 V6 H0 V5 M1,9 H16 V10 H2 V9 M3,13 H4 V14 H14 V13" />
+			</svg>
+			<span class="header__span">Menu</span>
+		</button>
+		<a href="index.html" class="header__logo" title="Rocka">
+			<img loading="lazy" class="header__logo--white" src="assets/img/logo-white.svg" alt="Rocka">
+			<img loading="lazy" class="header__logo--black" src="assets/img/logo-black.svg" alt="Rocka">
+		</a>
+		<nav class="header__nav">
+			<ul class="header__ul">
+				<li class="header__li header__li--toolkit"><a class="header__a" href="#" title="Dailybot">Dailybot</a></li>
+				<li class="header__li header__li--poseidon"><a class="header__a" href="#" title="Services">Services</a></li>
+				<li class="header__li header__li--goddess"><a class="header__a" href="#" title="Labs">Labs</a></li>
+			</ul>
+			<ul class="header__options">
+				<li class="header__option">
+					<button class="header__btn--close" type="button">
+						<svg class="header__svg" viewBox="0 0 20 20" aria-hidden="true">
+							<path d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+						</svg>
+						<span class="header__link">Close</span>
+					</button>
+				</li>
+				<li class="header__option"><a href="#" class="header__link" title="About Us">About Us</a></li>
+				<li class="header__option"><a href="#" class="header__link" title="Contact">Contact</a></li>
+			</ul>
+		</nav>
+		<a href="#" class="header__a header__a--about" title="About Us">About Us</a>
+	</header>
+
+	<main class="main">
+		<section data-class="first" class="section section--first">
+			<div class="section__image">
+				<picture>
+					<source srcset="assets/img/intro-mobile.png" media="screen and (max-width:480px)">
+					<img class="section__img" src="assets/img/intro.png" alt="Intro statue">
+				</picture>
+			</div>
+			<div class="section__text">
+				<h1 class="section__title">
+					<span>The</span>
+					<span>Future</span>
+					<span>of Work</span>
+				</h1>
+				<p class="section__p">Building and shipping products and services for the new generation of workers. <br class="section__br">We are passionate product builders spread across the globe.</p>
+			</div>
+			<p class="section__scroll section__scroll--bottom">Scroll for more ↓</p>
+			<p class="section__scroll section__scroll--side">Scroll for more →</p>
+		</section>
+		<section data-class="toolkit" class="section section--toolkit section--scroll">
+			<div class="section__image">
+				<picture>
+					<source srcset="assets/img/discobolus-shadow-mobile.png" media="screen and (max-width:991px)">
+					<img loading="lazy" class="section__img  section__img--shadow" src="assets/img/discobolus-shadow.png" alt="Discobolus shadow">
+				</picture>
+				<picture>
+					<source srcset="assets/img/discobolus-mobile.png" media="screen and (max-width:991px)">
+					<img loading="lazy" class="section__img  section__img--normal" src="assets/img/discobolus.png" alt="Discobolus">
+				</picture>
+				<picture>
+					<source srcset="assets/img/discobolus-border.png" media="screen and (max-width:991px)">
+					<img loading="lazy" class="section__img  section__img--border" src="assets/img/discobolus-border.png" alt="Discobolus border">
+				</picture>
+			</div>
+			
+			<div class="section__text">
+				<p class="section__extra"><small class="section__small">001</small><small class="section__span">Dailybot</small></p>
+				<h2 class="section__title">
+					<span>We</span>
+					<span>Created</span>
+					<span>A toolkit</span>
+				</h2>
+				<p class="section__p">A toolkit and chatbot for team collaboration, thousands of companies use it to make remote work more fulfilling.</p>
+				<a class="section__button button" href="#" title="Discover Dailybot">
+					<span>Discover Dailybot</span>
+					<svg xmlns="http://www.w3.org/2000/svg" class="button__svg" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+					</svg>
+				</a>
+			</div>
+		</section>
+		<section data-class="companies" class="section section--companies section--scroll">
+			<div class="section__image">
+				<img loading="lazy" class="section__img  section__img--shadow" src="assets/img/poseidon-shadow.png" alt="Poseidon shadow">
+				<picture>
+					<source srcset="assets/img/poseidon-mobile.png" media="screen and (max-width:991px)">
+					<img loading="lazy" class="section__img section__img--horse" src="assets/img/poseidon.png" alt="Poseidon">		
+				</picture>
+			</div>
+			<div class="section__text">
+				<p class="section__extra"><small class="section__small">002</small><small class="section__span">Rocka Services</small></p>
+				<h2 class="section__title">
+					<span>We</span>
+					<span>Help</span>
+					<span>Companies</span>
+				</h2>
+				<p class="section__p">We support businesses and corporations with our knowledge and advising to integrate top remote work practices that create thriving teams.</p>
+
+				<a class="section__button button" href="#" title="Transform to remote work">
+					<span>Transform to remote work</span>
+					<svg xmlns="http://www.w3.org/2000/svg" class="button__svg" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+					</svg>
+				</a>
+			</div>
+		</section>
+		<section data-class="products" class="section section--products section--scroll">
+			<div class="section__image">
+				<img loading="lazy" class="section__img  section__img--shadow" src="assets/img/goddess-shadow.png" alt="Goddess shadow">
+				<picture>
+					<source srcset="assets/img/goddess-mobile.png" media="screen and (max-width:991px)">
+					<img loading="lazy" class="section__img" src="assets/img/goddess.png" alt="Goddess">
+				</picture>
+			</div>
+			<div class="section__text">
+				<p class="section__extra"><small class="section__small">003</small><small class="section__span">Rocka Labs</small></p>
+				<h2 class="section__title">
+					<span>We</span>
+					<span>Invent</span>
+					<span>Products</span>
+				</h2>
+				<p class="section__p">We are constantly researching and shipping new products from our Lab. Meet some of our projects and the culture of makers we have behind.</p>
+				<a class="section__button button" href="#" title="Discover Rocka Labs">
+					<span>Discover Rocka Labs</span> 
+					<svg xmlns="http://www.w3.org/2000/svg" class="button__svg" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+					</svg>
+				</a>
+			</div>
+		</section>
+	</main>
+
+	<div class="newsletter">
+		<div class="wrapper">
+			<input class="newsletter__input" type="email" name="email" id="email" placeholder="Get news! enter your email..." required autocomplete="off">
+			<input class="newsletter__submit" type="submit" value="Subscribe">
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="footer__row">
+			<div class="footer__column">
+				<p class="footer__p">Rocka</p>
+				<a class="footer__a" href="" title="Dailybot">Dailybot</a>
+			</div>
+			<div class="footer__column">
+				<p class="footer__p">Rocka</p>
+				<a class="footer__a" href="" title="Services">Services</a>
+			</div>
+			<div class="footer__column">
+				<p class="footer__p">Rocka</p>
+				<a class="footer__a" href="" title="Labs">Labs</a>
+			</div>
+		</div>
+
+		<div class="footer__row footer__row--clock">
+			<div class="footer__column">
+				<svg class="footer__clock clock" data-locale="Europe/Madrid" viewBox="-100 -100 200 200">
+					<circle r="82" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+					<circle cx="0" cy="0" r="68" stroke="rgba(255, 255, 255, 0.3)" stroke-width="4" stroke-dasharray="0 5" pathlength="60" stroke-linecap="round"/>
+					<line class="clock__hand clock__hand--minute" x1="0" y1="17" x2="0" y2="-90" />
+					<line class="clock__hand clock__hand--hour" x1="0" y1="2" x2="0" y2="-45" />
+					<circle r="1" stroke="rgba(255, 255, 255, 1)" stroke-width="6" />
+				</svg>
+				<div class="footer__city">
+					<span class="footer__city--acro">Mad</span>
+					<span class="footer__city--name">Madrid</span>
+				</div>
+			</div>
+			<div class="footer__column">
+				<svg class="footer__clock clock" data-locale="America/New_York" viewBox="-100 -100 200 200">
+					<circle r="82" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+					<circle cx="0" cy="0" r="68" stroke="rgba(255, 255, 255, 0.3)" stroke-width="4" stroke-dasharray="0 5" pathlength="60" stroke-linecap="round"/>
+					<line class="clock__hand clock__hand--minute" x1="0" y1="17" x2="0" y2="-90" />
+					<line class="clock__hand clock__hand--hour" x1="0" y1="2" x2="0" y2="-45" />
+					<circle r="1" stroke="rgba(255, 255, 255, 1)" stroke-width="6" />
+				</svg>
+				
+				<div class="footer__city">
+					<span class="footer__city--acro">Nyc</span>
+					<span class="footer__city--name">New York</span>
+				</div>
+			</div>
+			<div class="footer__column">
+				<svg class="footer__clock clock" data-locale="America/Bogota" viewBox="-100 -100 200 200">
+					<circle r="82" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+					<circle cx="0" cy="0" r="68" stroke="rgba(255, 255, 255, 0.3)" stroke-width="4" stroke-dasharray="0 5" pathlength="60" stroke-linecap="round"/>
+					<line class="clock__hand clock__hand--minute" x1="0" y1="17" x2="0" y2="-90" />
+					<line class="clock__hand clock__hand--hour" x1="0" y1="2" x2="0" y2="-45" />
+					<circle r="1" stroke="rgba(255, 255, 255, 1)" stroke-width="6" />
+				</svg>
+				<div class="footer__city">
+					<span class="footer__city--acro">Mde</span>
+					<span class="footer__city--name">Medellín</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__row footer__row--contact">
+			<div class="footer__column footer__column--contact">
+				<p class="footer__subtitle">Let's make it happen</p>
+				<a class="footer__a" href="#" title="Talk to us">TALK TO US</a>	
+			</div>
+			<div class="footer__column footer__column--contact">
+				<p class="footer__subtitle">Find us on</p>
+				<ul class="footer__ul footer__ul--contact">
+					<li class="footer__text"><a href="#" class="footer__a">Crunchbase</a></li>
+					<li class="footer__text"><a href="#" class="footer__a">Angel List</a></li>
+					<li class="footer__text"><a href="#" class="footer__a">Github</a></li>
+				</ul>
+				<ul class="footer__ul">
+					<li class="footer__li"><a class="footer__social" href="#" title="Facebook" target="_blank" rel="noopener noreferrer">
+						<img class="footer__svg" src="assets/rrss/facebook.svg" alt="Facebook">
+					</a></li>
+					<li class="footer__li"><a class="footer__social" href="#" title="Twitter" target="_blank" rel="noopener noreferrer">
+						<img class="footer__svg" src="assets/rrss/twitter.svg" alt="Twitter">
+					</a></li>
+					<li class="footer__li"><a class="footer__social" href="#" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+						<img class="footer__svg" src="assets/rrss/linkedin.svg" alt="LinkedIn">
+					</a></li>
+					<li class="footer__li"><a class="footer__social" href="#" title="Medium" target="_blank" rel="noopener noreferrer">
+						<img class="footer__svg" src="assets/rrss/medium.svg" alt="Medium">
+					</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer__row footer__row--copy">
+			<div class="footer__legal footer__legal--copy">
+				<ul class="footer__ul footer__ul--copy">
+					<li class="footer__item">
+						<p>2020 © ROCKALABS LLC</p>
+					</li>
+					<li class="footer__item">
+						<a class="footer__email" href="mailto:hey@rocka.co" title="hey@rocka.co">hey@rocka.co</a>
+					</li>
+				</ul>
+
+
+			</div>
+			<div class="footer__legal footer__legal--list">
+				<ul class="footer__ul footer__ul--list">
+					<li class="footer__item"><a href="#" title="Terms of use">Terms of use</a></li>
+					<li class="footer__item"><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
