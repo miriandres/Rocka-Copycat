@@ -31,7 +31,7 @@ $ git clone https://miriandres.github.io/Rocka-Copycat/
 * [Luxon 3.x](https://moment.github.io/luxon/#/)
 
 ## Contact
-Focused on developing a career as a Junior Frontend developer. Reach me: hello@miriamandres.com
+Focused on developing a career as a Frontend developer. Reach me: hello@miriamandres.com
 
 ## License 📄
 MIT Public License v3.0
