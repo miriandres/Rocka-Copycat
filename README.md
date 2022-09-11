@@ -14,7 +14,7 @@
 **Miriam Andrés** - *Code*
 * [Website](https://miriamandres.com)
 * [Github](https://github.com/miriandres)
-* [LinkedIn](www.linkedin.com/in/miriamandresdev)
+* [LinkedIn](www.linkedin.com/in/miriandres)
 
 ## Built with 🛠️
 [![JavaScript](https://img.shields.io/static/v1?label=&message=JavaScript&color=f7df1e&logo=javascript&logoColor=black&style=for-the-badge)](https://www.javascript.com/)
